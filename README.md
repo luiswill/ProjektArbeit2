@@ -21,5 +21,7 @@ Aufgabe 2.4
 ----
 
 CREATE TABLE dls AS SELECT LENGTH(did) FROM DOCS;
+
 CREATE TABLE dfs AS SELECT term, tf FROM tfs;
+
 CREATE TABLE d AS SELECT COUNT(did) from DOCS;
